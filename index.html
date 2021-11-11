@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>meme master</title>
+
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <div class="row header-row">
+    <div class="column w-50" id="left-column">
+      <img src="img/logo.png" alt="master meme: wordart title art" id="wordart-title"></a>
+    </div>
+    <div class="column w-30" id="middle-column">
+      <p>Tired of trite content? Me too.</p>
+      <p>Sick of scrolling without a single chuckle? Same.</p>
+      <p>Enter your chaotic paradise, Meme Master. </p>
+      <p>A site created to compile and organize niche memes.</p>
+    </div>
+    <div class="column w-20 text-center" id="right-column">Welcome to the <br> Meme-llenium</div>
+  </div>
+
+
+
+
+  <div class="row main-content">
+    <div class="column w-80">
+      <div class="row card-container" id="cards">
+        <!-- <div class="column card">
+          <img src="https://i.imgflip.com/1bij.jpg" alt="meme image">
+          <div class="overlay">
+            <div class="card-text">
+              <h2>One does not simply</h2>
+              <p class="card-tags">#gameofthrones #tv #man #simply #2001</p>
+              <p class="card-source">source: google</p>
+              <p class="copy-tracker">copied __ times <button class="secondary text-center">+</button></p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="column sidebar w-20">
+      <div class="sidebar-content">
+        <div class="row">
+          <button id="add-meme" class="primary text-center w-100">Contribute to the Chaos</button>
+        </div>
+        <div class="row">
+          <div class="column trending text-center" id="trending">
+            <h3>Lookin' for a quick fix?</h3>
+            <p>Despiration is the <br> ~ mother of innovation ~</p>
+            <p>Memes to get your juices flowing</p>
+            <!-- <img src="https://i.imgflip.com/1bij.jpg" alt="first randomly generated meme"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="open-modal" class="modal-window">
+    <div>
+      <a href="#" title="Close" class="modal-close">&times;</a>
+      <h5>Meme Submission</h5>
+      <form name="meme_submission_form">
+        <div><label>Title </label>
+          <input type="text" name="title_text" id="title-text">
+        </div>
+        <div><label>Image URL </label>
+          <input type="url" name="image_url" id="image-url">
+        </div>
+        <div><label>Tags (comma seperated) </label>
+          <input type="text" name="tags_text" id="tags-text">
+        </div>
+        <div><label>Source </label>
+          <input type="text" name="source_text" id="source-text">
+        </div>
+        <div id="preview"></div>
+        <button id="submit-meme" class="primary text-center w-100" type="submit">Submit</button>
+      </form>
+
+    </div>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>

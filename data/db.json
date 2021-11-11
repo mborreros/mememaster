@@ -1,0 +1,68 @@
+{
+  "memes": [
+    {
+      "id": 1,
+      "title": "Smol Bird",
+      "image": "img/memes/img_1.PNG",
+      "tags": [
+        "smol",
+        "bird",
+        "cute",
+        "blue"
+      ],
+      "source": "Google",
+      "tracker": 16
+    },
+    {
+      "id": 2,
+      "title": "Wanna hear me scream?",
+      "image": "img/memes/img_2.JPG",
+      "tags": [
+        "bird",
+        "scream",
+        "a"
+      ],
+      "source": "Instagram",
+      "tracker": 4
+    },
+    {
+      "id": 3,
+      "title": "Papi knows best",
+      "image": "img/memes/img_4.jpeg",
+      "tags": [
+        "personal",
+        "food",
+        "hispanic",
+        "family"
+      ],
+      "source": "Real Life",
+      "tracker": 6
+    },
+    {
+      "id": 4,
+      "title": "When will my husband return from war?",
+      "image": "img/memes/img_5.JPG",
+      "tags": [
+        "dog",
+        "war",
+        "longing",
+        "hg"
+      ],
+      "source": "Snapchat",
+      "tracker": 0
+    },
+    {
+      "title": "Hummingbird Relaxing",
+      "image": "https://www.letseatcake.com/wp-content/uploads/2021/04/wholesome-memes-1.jpg",
+      "tags": [
+        "bird",
+        "smol",
+        "cute",
+        "sleep"
+      ],
+      "source": "Wholesome Memes",
+      "tracker": 1,
+      "id": 8
+    }
+  ]
+}

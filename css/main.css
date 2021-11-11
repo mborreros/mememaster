@@ -1,0 +1,327 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", sans-serif;
+  text-transform: lowercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+/* widths to be added to class line in html on class */
+
+.w-10 {
+  width: 10%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* modal */
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.65);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.modal-window.show {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window > div {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  background: white;
+}
+.modal-window header {
+  font-weight: bold;
+}
+.modal-window h5 {
+  font-family: "Andale Mono", sans-serif;
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 34px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 34px;
+  text-decoration: none;
+}
+.modal-close:hover {
+  color: black;
+}
+
+label, input {
+  display: block;
+}
+
+input {
+  width: 100%;
+}
+
+/* sidebar */
+
+.random-gen-meme {
+  margin-top: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.15s ease-in-out;
+}
+
+.random-gen-meme:hover {
+  box-shadow: 0px 9px 28px rgb(234 153 234 / 50%);
+}
+
+.trending p {
+  margin: 3px 0;
+  font-size: 13px;
+  padding-bottom: 1px;
+}
+
+.trending h3 {
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  font-family: "Andale Mono", sans-serif;
+}
+
+.sidebar-content {
+  position: sticky;
+  top: 20px;
+}
+
+/* header 3 column layout */
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row.card-container {
+  flex-flow: row wrap;
+}
+
+.column {
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.header-row {
+  align-items: center;
+}
+
+#left-column {
+  padding: 15px 20px;
+}
+
+#wordart-title {
+  margin: 0;
+  width: 100%;
+  /* color: #D8BFD8; would use this orchid color if not using wordart image */
+}
+
+#middle-column {
+    font-family: "Andale Mono", sans-serif;
+  font-size: 12px;
+  color: #000000;
+  padding-left: 22px;
+}
+
+#middle-column p {
+  margin: 0;
+}
+
+#right-column {
+    font-family: "Andale Mono", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  text-shadow: 1px 1px 10px #EA9AEA, 1px 1px 10px #EA9AEA;
+}
+
+/* buttons */
+
+button {
+  text-transform: lowercase;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 4px;
+  border-radius: 10px;
+  transition: all .15s ease-in-out;
+}
+
+/* submit button */
+
+.primary {
+  color: #6c757d;
+  border-color: #6c757d;
+  margin-top: 10px;
+}
+
+.primary:hover {
+  border-color: #EA9AEA;
+  background-color: #EA9AEA;
+  box-shadow: 1px 1px 10px #EA9AEA, 1px 1px 10px #EA9AEA;
+  color: #fff;
+}
+
+/* copy link button */
+
+button.secondary {
+  border: 1px solid rgb(204, 201, 201);
+  background-color: rgba(255, 255, 255, 0.795);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 14px;
+  height: 20px;
+  width: 20px;
+  border-radius: 999px;
+  position: relative;
+  padding-top: 1px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  transition: all .15s ease-in-out;
+}
+
+.secondary:hover {
+  border-color: #EA9AEA;
+  background-color: #EA9AEA;
+  box-shadow: 1px 1px 10px #EA9AEA, 1px 1px 10px #EA9AEA;
+  color: #fff;
+}
+
+
+
+/* card overlay */
+
+.card {
+  position: relative;
+  padding: 0;
+  margin: 10px 0;
+  width: 33%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+}
+
+.overlay {
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card-inner {
+  padding: 0px;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-text {
+  font-size: 14px;
+  padding: 8px;
+}
+
+.card-text h2 {
+  color: white;
+  font-size: 26px;
+  margin-top: 0px;
+  margin-left: 6px;
+  margin-bottom: 2px;
+}
+
+.card-text p {
+  color: rgb(204, 201, 201);
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.card-tags {
+  margin-left: 6px;
+  margin-right: 6px;
+  overflow-wrap: break-word;
+}
+
+.card-source {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+}
+
+.copy-tracker {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
