@@ -32,17 +32,6 @@
   <div class="row main-content">
     <div class="column w-80">
       <div class="row card-container" id="cards">
-        <!-- <div class="column card">
-          <img src="https://i.imgflip.com/1bij.jpg" alt="meme image">
-          <div class="overlay">
-            <div class="card-text">
-              <h2>One does not simply</h2>
-              <p class="card-tags">#gameofthrones #tv #man #simply #2001</p>
-              <p class="card-source">source: google</p>
-              <p class="copy-tracker">copied __ times <button class="secondary text-center">+</button></p>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
     <div class="column sidebar w-20">
@@ -55,7 +44,6 @@
             <h3>Lookin' for a quick fix?</h3>
             <p>Despiration is the <br> ~ mother of innovation ~</p>
             <p>Memes to get your juices flowing</p>
-            <!-- <img src="https://i.imgflip.com/1bij.jpg" alt="first randomly generated meme"> -->
           </div>
         </div>
       </div>
@@ -68,16 +56,16 @@
       <h5>Meme Submission</h5>
       <form name="meme_submission_form">
         <div><label>Title </label>
-          <input type="text" name="title_text" id="title-text">
+          <input type="text" name="title_text" id="title-text" autocomplete="off">
         </div>
         <div><label>Image URL </label>
-          <input type="url" name="image_url" id="image-url">
+          <input type="url" name="image_url" id="image-url" autocomplete="off">
         </div>
         <div><label>Tags (comma seperated) </label>
-          <input type="text" name="tags_text" id="tags-text">
+          <input type="text" name="tags_text" id="tags-text" autocomplete="off">
         </div>
         <div><label>Source </label>
-          <input type="text" name="source_text" id="source-text">
+          <input type="text" name="source_text" id="source-text" autocomplete="off">
         </div>
         <div id="preview"></div>
         <button id="submit-meme" class="primary text-center w-100" type="submit">Submit</button>

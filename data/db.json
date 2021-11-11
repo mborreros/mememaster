@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Smol Bird",
-      "image": "img/memes/img_1.PNG",
+      "image": "https://imgur.com/WWD4zoG.jpg",
       "tags": [
         "smol",
         "bird",
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "title": "Wanna hear me scream?",
-      "image": "img/memes/img_2.JPG",
+      "image": "https://imgur.com/HxHE3AH.jpg",
       "tags": [
         "bird",
         "scream",
@@ -28,7 +28,7 @@
     {
       "id": 3,
       "title": "Papi knows best",
-      "image": "img/memes/img_4.jpeg",
+      "image": "https://imgur.com/Zsuomwt.jpg",
       "tags": [
         "personal",
         "food",
@@ -41,7 +41,7 @@
     {
       "id": 4,
       "title": "When will my husband return from war?",
-      "image": "img/memes/img_5.JPG",
+      "image": "https://imgur.com/NcNSRP1.jpg",
       "tags": [
         "dog",
         "war",
@@ -49,7 +49,7 @@
         "hg"
       ],
       "source": "Snapchat",
-      "tracker": 0
+      "tracker": 2
     },
     {
       "title": "Hummingbird Relaxing",
@@ -61,8 +61,35 @@
         "sleep"
       ],
       "source": "Wholesome Memes",
-      "tracker": 1,
+      "tracker": 5,
       "id": 8
+    },
+    {
+      "title": "Lovable Frog",
+      "image": "https://i.imgur.com/DjZUmSs.jpg",
+      "tags": [
+        "smol",
+        "cute",
+        "frog",
+        "love",
+        "tender"
+      ],
+      "source": "Bored Panda",
+      "tracker": 3,
+      "id": 9
+    },
+    {
+      "title": "Another Man's Trash...",
+      "image": "https://imgur.com/k81ZTp0.jpg",
+      "tags": [
+        "raccoon",
+        "positive",
+        "wordart",
+        "trash"
+      ],
+      "source": "WordPress",
+      "tracker": 2,
+      "id": 10
     }
   ]
 }

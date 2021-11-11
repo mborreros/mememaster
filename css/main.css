@@ -1,3 +1,4 @@
+/* general css rules */
 body {
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", sans-serif;
   text-transform: lowercase;
@@ -12,7 +13,6 @@ img {
 }
 
 /* widths to be added to class line in html on class */
-
 .w-10 {
   width: 10%;
 }
@@ -114,7 +114,6 @@ input {
 }
 
 /* sidebar */
-
 .random-gen-meme {
   margin-top: 5px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -144,7 +143,6 @@ input {
 }
 
 /* header 3 column layout */
-
 .row {
   display: flex;
   justify-content: space-evenly;
@@ -170,7 +168,6 @@ input {
 #wordart-title {
   margin: 0;
   width: 100%;
-  /* color: #D8BFD8; would use this orchid color if not using wordart image */
 }
 
 #middle-column {
@@ -192,7 +189,6 @@ input {
 }
 
 /* buttons */
-
 button {
   text-transform: lowercase;
   display: inline-block;
@@ -207,7 +203,6 @@ button {
 }
 
 /* submit button */
-
 .primary {
   color: #6c757d;
   border-color: #6c757d;
@@ -222,7 +217,6 @@ button {
 }
 
 /* copy link button */
-
 button.secondary {
   border: 1px solid rgb(204, 201, 201);
   background-color: rgba(255, 255, 255, 0.795);
@@ -249,8 +243,7 @@ button.secondary {
 
 
 
-/* card overlay */
-
+/* card image overlay */
 .card {
   position: relative;
   padding: 0;
